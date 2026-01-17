@@ -2,18 +2,22 @@
 <html>
 <head>
   <style>
-    body { width: 300px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; padding: 16px; background: #ffffff; }
-    h3 { margin: 0 0 16px; font-size: 16px; font-weight: 700; color: #111; border-bottom: 1px solid #eee; padding-bottom: 8px;}
-    .tool-item { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; padding: 12px; border: 1px solid #e5e7eb; border-radius: 8px; }
-    .tool-name { display: block; margin-top: 2px; }
-    .use-tool-btn { background: #2563eb; color: white; border: none; padding: 8px 12px; border-radius: 6px; font-size: 12px; font-weight: 600; cursor: pointer; }
-    .use-tool-btn:hover { background: #1d4ed8; }
-    .loader { text-align: center; font-size: 13px; color: #6b7280; padding: 20px 0; }
+    body { width: 300px; font-family: sans-serif; padding: 10px; }
+    h2 { color: #2c3e50; font-size: 16px; }
+    .tool-item { background: #f4f4f4; padding: 8px; margin-bottom: 5px; border-radius: 4px; display: flex; justify-content: space-between; align-items: center; }
+    button { background: #27ae60; color: white; border: none; padding: 5px 10px; border-radius: 3px; cursor: pointer; }
+    .disclosure { font-size: 10px; color: #7f8c8d; margin-top: 15px; border-top: 1px solid #eee; padding-top: 5px; }
   </style>
 </head>
 <body>
-  <h3>SaaS Detective</h3>
-  <div id="results" class="loader">Ready...</div>
+  <h2>🔍 SaaS Detective</h2>
+  <div id="toolList">Scanning for tools...</div>
+  
+  <div class="disclosure">
+    Venom Industries may earn a commission if you use these deals. 
+    <a href="https://graysonk.github.io/SaaS-Detective/privacy.html" target="_blank">Privacy Policy</a>
+  </div>
+
   <script src="popup.js"></script>
 </body>
 </html>
