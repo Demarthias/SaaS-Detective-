@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # SaaS Detective - Browser Extension
 
 ![SaaS Detective](icons/icon128.png)
@@ -85,13 +84,14 @@ The extension analyzes script tags and resource URLs loaded on the page to ident
 - ✅ No cookies injected
 - ✅ No personal information access
 
-See [Privacy Policy](privacy.html) for complete details.
+See [privacy.html](privacy.html) for complete details.
 
 ## Permissions
 
 | Permission | Purpose |
 |-----------|---------|
 | `activeTab` | Access the current website |
+| `tabs` | Identify the active tab to send a scan request |
 | `scripting` | Inject detection script into pages |
 | `https://*/* and http://*/*` | Run on all websites |
 
@@ -129,10 +129,4 @@ SaaS Detective may include affiliate links to services we detect. Using these li
 
 ---
 
-**Download SaaS Detective from the [Chrome Web Store](https://chrome.google.com/webstore)**
-
 Made with ❤️ by Venom Industries
-=======
-# SaaS-Detective-
-Chrome Extension designed for entrepreneurs and B2B professionals. The tool identifies the technology stacks of successful websites (E-Commerce platforms,  Analytics and marketing Automation) and recommends the industry-leading tools to help users build their own versions.  
->>>>>>> 14e94064723019a8e457faa08ac33148bcc11ce6

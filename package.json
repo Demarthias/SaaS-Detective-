@@ -1,6 +1,6 @@
 {
-  "name": "stack-scanner-extension",
-  "version": "1.0.0",
+  "name": "saas-detective",
+  "version": "1.0.1",
   "scripts": {
     "build": "webpack --mode production",
     "watch": "webpack --mode development --watch"

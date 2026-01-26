@@ -1,0 +1,24 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "zip-extension",
+			"type": "shell",
+			"command": "zip",
+			"args": [
+				"-r",
+				"SaaS-Detective-v1.0.1.zip",
+				"manifest.json",
+				"popup.html",
+				"popup.js",
+				"privacy.html",
+				"background.js",
+				"README.md",
+				"dist/",
+				"icons/"
+			],
+			"isBackground": false,
+			"group": "build"
+		}
+	]
+}

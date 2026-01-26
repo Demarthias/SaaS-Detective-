@@ -1,19 +1,22 @@
 {
-<<<<<<< HEAD
-  "manifest_version": 5,
+  "manifest_version": 3,
   "name": "SaaS Detective",
   "version": "1.0.1",
   "description": "Instantly identify the tech stack and SaaS tools used by any website. Perfect for developers, marketers, and business analysts.",
   "short_name": "SaaS Detective",
-  "permissions": ["activeTab", "scripting"],
+  "permissions": ["activeTab", "scripting", "tabs"],
   "host_permissions": ["https://*/*", "http://*/*"],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
       "128": "icons/icon128.png"
     }
   },
   "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
   "content_scripts": [
@@ -24,17 +27,5 @@
   ],
   "background": {
     "service_worker": "background.js"
-=======
-  "manifest_version": 3,
-  "name": "SaaS Stack Detective",
-  "version": "1.2",
-  "description": "Identify SaaS tools and get affiliate deals.",
-  "permissions": ["activeTab"],
-  "host_permissions": [
-    "https://api.builtwith.com/*"
-  ],
-  "action": {
-    "default_popup": "popup.html"
->>>>>>> 14e94064723019a8e457faa08ac33148bcc11ce6
   }
 }
