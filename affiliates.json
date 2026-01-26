@@ -1,0 +1,14 @@
+{
+  "Shopify": {
+    "status": "active",
+    "url": "https://www.shopify.com/free-trial?ref=SaaSSleuth"
+  },
+  "WordPress": {
+    "status": "active",
+    "url": "https://wordpress.com/create/?ref=SaaSSleuth"
+  },
+  "HubSpot": {
+    "status": "pending",
+    "url": "https://hubspot.com"
+  }
+}
