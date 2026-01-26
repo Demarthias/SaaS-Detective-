@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SaaS Detective - Browser Extension
 
 ![SaaS Detective](icons/icon128.png)
@@ -131,3 +132,7 @@ SaaS Detective may include affiliate links to services we detect. Using these li
 **Download SaaS Detective from the [Chrome Web Store](https://chrome.google.com/webstore)**
 
 Made with ❤️ by Venom Industries
+=======
+# SaaS-Detective-
+Chrome Extension designed for entrepreneurs and B2B professionals. The tool identifies the technology stacks of successful websites (E-Commerce platforms,  Analytics and marketing Automation) and recommends the industry-leading tools to help users build their own versions.  
+>>>>>>> 14e94064723019a8e457faa08ac33148bcc11ce6
