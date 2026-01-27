@@ -4,7 +4,6 @@ SaaS Detective
 
 Instantly identify the tech stack powering any website.
 
-Overview
 SaaS Detective is a Chrome extension that instantly reveals the technologies, frameworks, and SaaS tools used to build any website. Click the extension icon, and within seconds, you'll see:
 
 🔍 26+ Tech Signatures - Detect popular tools across multiple categories
@@ -22,7 +21,7 @@ Features
 ✅ Lightweight - Only 3.7 KB of optimized code
 ✅ Open Source Ready - Clean, maintainable TypeScript codebase
 
-How It Works
+"How It Works?"
 Navigate to any website
 Click the SaaS Detective icon
 View the detected tech stack instantly
