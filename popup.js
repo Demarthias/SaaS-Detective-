@@ -1,4 +1,13 @@
 let affiliateTable = {};
+let sdOptions = {
+  showAffiliateLinks: true,
+};
+
+async function loadOptions() {
+  const DEFAULT_OPTIONS = { showAffiliateLinks: true };
+  const { sd_options } = await chrome.storage.sync.get({ sd_options: DEFAULT_OPTIONS });
+  sdOptions = { ...DEFAULT_OPTIONS, ...(sd_options || {}) };
+}
 
 async function loadAffiliates() {
   try {
@@ -10,9 +19,11 @@ async function loadAffiliates() {
 }
 
 function resolveLink(toolName, fallbackLink) {
-  const entry = affiliateTable[toolName];
-  if (entry && entry.status === 'active') {
-    return entry.url;
+  if (sdOptions.showAffiliateLinks) {
+    const entry = affiliateTable[toolName];
+    if (entry && entry.status === 'active') {
+      return entry.url;
+    }
   }
   if (fallbackLink && fallbackLink !== '#') {
     return fallbackLink;
@@ -105,6 +116,7 @@ async function scanPage() {
 }
 
 document.addEventListener('DOMContentLoaded', async () => {
+  await loadOptions();
   await loadAffiliates();
   scanPage();
 });

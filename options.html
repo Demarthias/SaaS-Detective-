@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>SaaS Detective – Options</title>
+  <style>
+    body { max-width: 800px; margin: 24px auto; padding: 0 16px; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; color: #0f172a; }
+    h1 { font-size: 22px; margin: 0 0 4px; }
+    .sub { color: #64748b; margin: 0 0 16px; }
+    .card { border: 1px solid #e2e8f0; border-radius: 10px; padding: 16px; margin-bottom: 12px; background: #fff; box-shadow: 0 1px 2px rgba(15,23,42,0.04); }
+    .row { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; }
+    .switch { display: flex; align-items: center; gap: 10px; padding: 8px 10px; border: 1px solid #e2e8f0; border-radius: 8px; }
+    .switch input { width: 18px; height: 18px; }
+    .actions { display: flex; gap: 8px; margin-top: 8px; }
+    button { border: none; background: #2563eb; color: #fff; font-weight: 700; padding: 8px 12px; border-radius: 8px; cursor: pointer; }
+    button.secondary { background: #e2e8f0; color: #0f172a; }
+    .status { margin-top: 8px; font-size: 13px; color: #475569; }
+  </style>
+</head>
+<body>
+  <h1>SaaS Detective Options</h1>
+  <p class="sub">Control detections and link behavior.</p>
+
+  <div class="card">
+    <h2 style="font-size:18px;margin:0 0 8px">Enabled Categories</h2>
+    <div id="category-list" class="row"></div>
+  </div>
+
+  <div class="card">
+    <h2 style="font-size:18px;margin:0 0 8px">Link Behavior</h2>
+    <label class="switch">
+      <input type="checkbox" id="showAffiliateLinks" />
+      <span>Use affiliate links when available</span>
+    </label>
+  </div>
+
+  <div class="actions">
+    <button id="reset">Reset to defaults</button>
+    <button id="openPopup">Open popup</button>
+  </div>
+
+  <div id="status" class="status"></div>
+
+  <script src="options.js"></script>
+</body>
+</html>
