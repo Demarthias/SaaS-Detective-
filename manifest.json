@@ -4,7 +4,7 @@
   "version": "1.0.1",
   "description": "Instantly identify the tech stack and SaaS tools used by any website. Perfect for developers, marketers, and business analysts.",
   "short_name": "SaaS Detective",
-  "permissions": ["activeTab", "scripting", "tabs"],
+  "permissions": ["activeTab", "scripting", "tabs", "storage"],
   "host_permissions": ["https://*/*", "http://*/*"],
   "action": {
     "default_popup": "popup.html",
@@ -27,10 +27,15 @@
   ],
   "background": {
     "service_worker": "background.js"
-  }
-  ,
+  },
   "options_ui": {
     "page": "options.html",
     "open_in_tab": true
-  }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["affiliates.json"],
+      "matches": ["<all_urls>"]
+    }
+  ]
 }

@@ -23,6 +23,7 @@ Features
 ✅ Open Source Ready - Clean, maintainable TypeScript codebase
 
 How It Works
+
 Navigate to any website
 Click the SaaS Detective icon
 View the detected tech stack instantly
@@ -30,9 +31,10 @@ Visit any tool's official website using the provided links
 The extension analyzes script tags and resource URLs loaded on the page to identify technologies. No data leaves your browser.
 
 ## 💎Pro-Analysis Suite
+
 While SaaS-Detective identifies the tech stack, I use these professional tools for Deep-Dive competitor research and SEO audits:
-* **[Semrush](https://www.semrush.com)**:The industry standard for analyzing competitor traffic and keyword gaps. (Highly recommended for SaaS developers). 
-* **[DigitalOcean](https://www.digitalocean.com)**:My preferred infrastructure for hosting high-performance backends and Rust APIs. 
+* **[Semrush](https://www.semrush.com)**: The industry standard for analyzing competitor traffic and keyword gaps. (Highly recommended for SaaS developers). 
+* **[DigitalOcean](https://www.digitalocean.com)**: My preferred infrastructure for hosting high-performance backends and Rust APIs. 
 
 
 Detected Tools
@@ -77,15 +79,18 @@ We take privacy seriously:
 ✅ Local processing only
 ✅ No cookies injected
 ✅ No personal information access
+
 See privacy.html for complete details.
 
 Permissions
+
 Permission	Purpose
 activeTab	Access the current website
 tabs	Identify the active tab to send a scan request
 scripting	Inject detection script into pages
 https://*/* and http://*/*	Run on all websites
 Development
+
 Built with:
 
 TypeScript - Type-safe code
@@ -105,16 +110,10 @@ License
 Copyright © 2026 Venom Industries. All rights reserved.
 
 Affiliate Disclosure
+
 SaaS Detective may include affiliate links to services we detect. Using these links helps support extension development. You are never required to use them, and they are clearly labeled.
 
 Made with ❤️ by Venom Industries
-
-
-
-
-
-
-
 
 ## Affiliate Disclosure
 SaaS-Det ective is a product of Venom Industries. To keep the project open-source and free, this README and the extension may include affiliate l inks to services we detect (like Semrush or hosting providers)_. If you use these links to start a trial or purchase a service, we may recieve a comission at no extra cost to you.

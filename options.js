@@ -17,7 +17,6 @@ const DEFAULT_OPTIONS = {
     'Library': true,
     'Payments': true,
   },
-  showAffiliateLinks: true,
 };
 
 function setStatus(msg) {
@@ -59,25 +58,17 @@ function renderCategories(container, options) {
 
 async function init() {
   const container = document.getElementById('category-list');
-  const showAff = document.getElementById('showAffiliateLinks');
   const resetBtn = document.getElementById('reset');
   const openPopupBtn = document.getElementById('openPopup');
 
   let options = await loadOptions();
 
   renderCategories(container, options);
-  showAff.checked = Boolean(options.showAffiliateLinks);
-  showAff.addEventListener('change', async () => {
-    options.showAffiliateLinks = showAff.checked;
-    await saveOptions(options);
-    setStatus('Saved');
-  });
 
   resetBtn.addEventListener('click', async () => {
     options = JSON.parse(JSON.stringify(DEFAULT_OPTIONS));
     await saveOptions(options);
     renderCategories(container, options);
-    showAff.checked = options.showAffiliateLinks;
     setStatus('Defaults restored');
   });
 

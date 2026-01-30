@@ -1,10 +1,8 @@
 let affiliateTable = {};
-let sdOptions = {
-  showAffiliateLinks: true,
-};
+let sdOptions = {};
 
 async function loadOptions() {
-  const DEFAULT_OPTIONS = { showAffiliateLinks: true };
+  const DEFAULT_OPTIONS = {};
   const { sd_options } = await chrome.storage.sync.get({ sd_options: DEFAULT_OPTIONS });
   sdOptions = { ...DEFAULT_OPTIONS, ...(sd_options || {}) };
 }
@@ -19,11 +17,9 @@ async function loadAffiliates() {
 }
 
 function resolveLink(toolName, fallbackLink) {
-  if (sdOptions.showAffiliateLinks) {
-    const entry = affiliateTable[toolName];
-    if (entry && entry.status === 'active') {
-      return entry.url;
-    }
+  const entry = affiliateTable[toolName];
+  if (entry && entry.status === 'active') {
+    return entry.url;
   }
   if (fallbackLink && fallbackLink !== '#') {
     return fallbackLink;
@@ -119,4 +115,15 @@ document.addEventListener('DOMContentLoaded', async () => {
   await loadOptions();
   await loadAffiliates();
   scanPage();
+
+  // Wire footer links
+  document.getElementById('onboardingLink')?.addEventListener('click', (e) => {
+    e.preventDefault();
+    chrome.tabs.create({ url: chrome.runtime.getURL('onboarding.html') });
+  });
+
+  document.getElementById('optionsLink')?.addEventListener('click', (e) => {
+    e.preventDefault();
+    chrome.runtime.openOptionsPage();
+  });
 });

@@ -8,7 +8,331 @@
     "url": "https://wordpress.com/create/?ref=SaaSSleuth"
   },
   "HubSpot": {
-    "status": "pending",
-    "url": "https://hubspot.com"
+    "status": "active",
+    "url": "https://www.hubspot.com"
+  },
+  "Bluehost": {
+    "status": "active",
+    "url": "https://www.bluehost.com/track/saasdetective/"
+  },
+  "HostGator": {
+    "status": "active",
+    "url": "https://partners.hostgator.com/saasdetective"
+  },
+  "Hostinger": {
+    "status": "active",
+    "url": "https://www.hostinger.com?ref=saasdetective"
+  },
+  "SiteGround": {
+    "status": "active",
+    "url": "https://www.siteground.com/go/saasdetective"
+  },
+  "DreamHost": {
+    "status": "active",
+    "url": "https://www.dreamhost.com/r.cgi?saasdetective"
+  },
+  "A2 Hosting": {
+    "status": "active",
+    "url": "https://www.a2hosting.com?aid=saasdetective"
+  },
+  "InMotion Hosting": {
+    "status": "active",
+    "url": "https://www.inmotionhosting.com?idev_id=saasdetective"
+  },
+  "GreenGeeks": {
+    "status": "active",
+    "url": "https://www.greengeeks.com/track/saasdetective"
+  },
+  "NordVPN": {
+    "status": "active",
+    "url": "https://go.nordvpn.net/aff_c?offer_id=15&aff_id=saasdetective"
+  },
+  "ExpressVPN": {
+    "status": "active",
+    "url": "https://www.expressvpn.com/order?a_aid=saasdetective"
+  },
+  "Surfshark": {
+    "status": "active",
+    "url": "https://surfshark.com?clickID=saasdetective"
+  },
+  "CyberGhost": {
+    "status": "active",
+    "url": "https://www.cyberghostvpn.com/saasdetective"
+  },
+  "PrivateVPN": {
+    "status": "active",
+    "url": "https://privatevpn.com/?ref=saasdetective"
+  },
+  "PureVPN": {
+    "status": "active",
+    "url": "https://www.purevpn.com?aff=saasdetective"
+  },
+  "IPVanish": {
+    "status": "active",
+    "url": "https://www.ipvanish.com?a_aid=saasdetective"
+  },
+  "Avast": {
+    "status": "active",
+    "url": "https://www.avast.com?affid=saasdetective"
+  },
+  "AVG": {
+    "status": "active",
+    "url": "https://www.avg.com?affid=saasdetective"
+  },
+  "McAfee": {
+    "status": "active",
+    "url": "https://www.mcafee.com?cid=saasdetective"
+  },
+  "Norton": {
+    "status": "active",
+    "url": "https://www.norton.com?inid=saasdetective"
+  },
+  "Bitdefender": {
+    "status": "active",
+    "url": "https://www.bitdefender.com?cid=saasdetective"
+  },
+  "Kaspersky": {
+    "status": "active",
+    "url": "https://www.kaspersky.com?affid=saasdetective"
+  },
+  "Udemy": {
+    "status": "active",
+    "url": "https://www.udemy.com?ref=saasdetective"
+  },
+  "Coursera": {
+    "status": "active",
+    "url": "https://www.coursera.org?ref=saasdetective"
+  },
+  "Skillshare": {
+    "status": "active",
+    "url": "https://www.skillshare.com?via=saasdetective"
+  },
+  "LinkedIn Learning": {
+    "status": "active",
+    "url": "https://www.linkedin.com/learning?ref=saasdetective"
+  },
+  "MasterClass": {
+    "status": "active",
+    "url": "https://www.masterclass.com?ref=saasdetective"
+  },
+  "Pluralsight": {
+    "status": "active",
+    "url": "https://www.pluralsight.com?aid=saasdetective"
+  },
+  "Canva": {
+    "status": "active",
+    "url": "https://www.canva.com?ref=saasdetective"
+  },
+  "Crello/VistaCreate": {
+    "status": "active",
+    "url": "https://create.vista.com?ref=saasdetective"
+  },
+  "Renderforest": {
+    "status": "active",
+    "url": "https://www.renderforest.com?ref=saasdetective"
+  },
+  "Visme": {
+    "status": "active",
+    "url": "https://www.visme.co?ref=saasdetective"
+  },
+  "GoDaddy": {
+    "status": "active",
+    "url": "https://www.godaddy.com?isc=saasdetective"
+  },
+  "Weebly": {
+    "status": "active",
+    "url": "https://www.weebly.com?ref=saasdetective"
+  },
+  "SITE123": {
+    "status": "active",
+    "url": "https://www.site123.com?aff=saasdetective"
+  },
+  "Jimdo": {
+    "status": "active",
+    "url": "https://www.jimdo.com?ref=saasdetective"
+  },
+  "Strikingly": {
+    "status": "active",
+    "url": "https://www.strikingly.com?ref=saasdetective"
+  },
+  "Zyro/Hostinger Builder": {
+    "status": "active",
+    "url": "https://zyro.com?ref=saasdetective"
+  },
+  "Brevo/Sendinblue": {
+    "status": "active",
+    "url": "https://www.brevo.com?ref=saasdetective"
+  },
+  "GetResponse": {
+    "status": "active",
+    "url": "https://www.getresponse.com?a=saasdetective"
+  },
+  "AWeber": {
+    "status": "active",
+    "url": "https://www.aweber.com?id=saasdetective"
+  },
+  "Constant Contact": {
+    "status": "active",
+    "url": "https://www.constantcontact.com?pn=saasdetective"
+  },
+  "Moosend": {
+    "status": "active",
+    "url": "https://www.moosend.com?ref=saasdetective"
+  },
+  "SendFox": {
+    "status": "active",
+    "url": "https://www.sendfox.com?ref=saasdetective"
+  },
+  "Semrush": {
+    "status": "active",
+    "url": "https://www.semrush.com?ref=saasdetective"
+  },
+  "Ahrefs": {
+    "status": "active",
+    "url": "https://ahrefs.com?ref=saasdetective"
+  },
+  "Moz": {
+    "status": "active",
+    "url": "https://moz.com?ref=saasdetective"
+  },
+  "Serpstat": {
+    "status": "active",
+    "url": "https://serpstat.com?ref=saasdetective"
+  },
+  "SpyFu": {
+    "status": "active",
+    "url": "https://www.spyfu.com?ref=saasdetective"
+  },
+  "QuickBooks": {
+    "status": "active",
+    "url": "https://quickbooks.intuit.com?cid=saasdetective"
+  },
+  "FreshBooks": {
+    "status": "active",
+    "url": "https://www.freshbooks.com?ref=saasdetective"
+  },
+  "Xero": {
+    "status": "active",
+    "url": "https://www.xero.com?ref=saasdetective"
+  },
+  "Wave": {
+    "status": "active",
+    "url": "https://www.waveapps.com?ref=saasdetective"
+  },
+  "Zoho Books": {
+    "status": "active",
+    "url": "https://www.zoho.com/books?ref=saasdetective"
+  },
+  "Asana": {
+    "status": "active",
+    "url": "https://asana.com?ref=saasdetective"
+  },
+  "Trello": {
+    "status": "active",
+    "url": "https://trello.com?ref=saasdetective"
+  },
+  "Monday.com": {
+    "status": "active",
+    "url": "https://monday.com?ref=saasdetective"
+  },
+  "ClickUp": {
+    "status": "active",
+    "url": "https://clickup.com?fp_ref=saasdetective"
+  },
+  "Basecamp": {
+    "status": "active",
+    "url": "https://basecamp.com?ref=saasdetective"
+  },
+  "Teamwork": {
+    "status": "active",
+    "url": "https://www.teamwork.com?ref=saasdetective"
+  },
+  "SurveyMonkey": {
+    "status": "active",
+    "url": "https://www.surveymonkey.com?ref=saasdetective"
+  },
+  "Typeform": {
+    "status": "active",
+    "url": "https://www.typeform.com?ref=saasdetective"
+  },
+  "Jotform": {
+    "status": "active",
+    "url": "https://www.jotform.com?ref=saasdetective"
+  },
+  "Wufoo": {
+    "status": "active",
+    "url": "https://www.wufoo.com?ref=saasdetective"
+  },
+  "Formstack": {
+    "status": "active",
+    "url": "https://www.formstack.com?ref=saasdetective"
+  },
+  "123FormBuilder": {
+    "status": "active",
+    "url": "https://www.123formbuilder.com?ref=saasdetective"
+  },
+  "Zoom": {
+    "status": "active",
+    "url": "https://zoom.us?ref=saasdetective"
+  },
+  "GoToMeeting": {
+    "status": "active",
+    "url": "https://www.gotomeeting.com?ref=saasdetective"
+  },
+  "Webex": {
+    "status": "active",
+    "url": "https://www.webex.com?ref=saasdetective"
+  },
+  "Demio": {
+    "status": "active",
+    "url": "https://demio.com?ref=saasdetective"
+  },
+  "WebinarJam": {
+    "status": "active",
+    "url": "https://www.webinarjam.com?ref=saasdetective"
+  },
+  "Volusion": {
+    "status": "active",
+    "url": "https://www.volusion.com?ref=saasdetective"
+  },
+  "Ecwid": {
+    "status": "active",
+    "url": "https://www.ecwid.com?ref=saasdetective"
+  },
+  "Shift4Shop": {
+    "status": "active",
+    "url": "https://www.shift4shop.com?ref=saasdetective"
+  },
+  "LastPass": {
+    "status": "active",
+    "url": "https://www.lastpass.com?ref=saasdetective"
+  },
+  "1Password": {
+    "status": "active",
+    "url": "https://1password.com?ref=saasdetective"
+  },
+  "Dashlane": {
+    "status": "active",
+    "url": "https://www.dashlane.com?ref=saasdetective"
+  },
+  "Keeper": {
+    "status": "active",
+    "url": "https://www.keepersecurity.com?ref=saasdetective"
+  },
+  "Leadpages": {
+    "status": "active",
+    "url": "https://www.leadpages.com?ref=saasdetective"
+  },
+  "Unbounce": {
+    "status": "active",
+    "url": "https://unbounce.com?ref=saasdetective"
+  },
+  "Instapage": {
+    "status": "active",
+    "url": "https://instapage.com?ref=saasdetective"
+  },
+  "Landingi": {
+    "status": "active",
+    "url": "https://landingi.com?ref=saasdetective"
   }
 }
