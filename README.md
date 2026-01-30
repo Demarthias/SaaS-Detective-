@@ -78,15 +78,8 @@ We take privacy seriously:
 ✅ No personal information access
 See privacy.html for complete details.
 
-Permissions
-Permission	Purpose
-activeTab	Access the current website
-tabs	Identify the active tab to send a scan request
-scripting	Inject detection script into pages
-https://*/* and http://*/*	Run on all websites
-Development
-Built with:
 
+Built with;
 TypeScript - Type-safe code
 Webpack - Bundling and optimization
 Manifest V3 - Modern Chrome extension standard
@@ -100,13 +93,16 @@ For questions or issues:
 
 📧 Email: gkube16@protonmail.com
 🐛 Report bugs via Chrome Web Store
+
+
+Made with ❤️ by Venom Industries
+
+
 License
 Copyright © 2026 Venom Industries. All rights reserved.
 
 Affiliate Disclosure
-SaaS Detective may include affiliate links to services we detect. Using these links helps support extension development. You are never required to use them, and they are clearly labeled.
-
-Made with ❤️ by Venom Industries
+SaaS Detective may include affiliate links to services we detect. Using these links helps support extension development. You are never required to use them, and they are clearly labeled, 
 
 
 
