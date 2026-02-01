@@ -7,7 +7,7 @@
 			"command": "zip",
 			"args": [
 				"-r",
-				"SaaS-Detective-v1.0.1.zip",
+				"SaaS-Detective-v1.0.2.zip",
 				"manifest.json",
 				"popup.html",
 				"popup.js",

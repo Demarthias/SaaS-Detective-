@@ -11,7 +11,7 @@
 | Code | ✅ Complete & Tested |
 | Icons | ✅ Ready |
 | Documentation | ✅ Complete |
-| Package | ✅ Ready (SaaS-Detective-v1.0.1.zip) |
+| Package | ✅ Ready (SaaS-Detective-v1.0.2.zip) |
 | Security | ✅ Verified |
 | Privacy | ✅ Compliant |
 | **Status** | **🟢 READY TO PUBLISH** |
@@ -27,8 +27,8 @@
 
 ### Step 2: Upload (5 min)
 - Click "New Item"
-- Upload: `SaaS-Detective-v1.0.1.zip`
-- Fill store listing (use PUBLISH_NOW.md)
+- Upload: `SaaS-Detective-v1.0.2.zip`
+- Fill store listing (use CHROME_STORE_SUBMISSION.md)
 
 ### Step 3: Publish (2 min)
 - Accept policies
@@ -47,13 +47,13 @@
 ```
 SaaS Detective instantly reveals the technologies powering any website.
 
-✓ Detects 26+ tech signatures
+✓ Detects 92+ tech signatures
 ✓ Zero data collection
 ✓ Auto-scans on popup open
 ✓ Direct links to tools
 ✓ Free & open source
 
-DETECTS: Frameworks (React, Vue, Next.js), Analytics (Google Analytics, Mixpanel, Hotjar), E-Commerce (Shopify, Wix, Squarespace), Payments (Stripe, PayPal), Marketing tools, and more!
+DETECTS: Frameworks (React, Vue, Angular), Analytics (Google Analytics, Mixpanel, Hotjar), E-Commerce (Shopify, WooCommerce), Payments (Stripe, PayPal), Marketing tools, and more!
 
 PRIVACY: No tracking. No analytics. No external calls. 100% local.
 ```
@@ -67,14 +67,13 @@ PRIVACY: No tracking. No analytics. No external calls. 100% local.
 ## 📂 What You Have
 
 ```
-SaaS-Detective-v1.0.1.zip (23 KB)
+SaaS-Detective-v1.0.2.zip (size varies by build)
 ├── manifest.json ✅
 ├── popup.html ✅
 ├── popup.js ✅
 ├── background.js ✅
 ├── privacy.html ✅
 ├── README.md ✅
-├── PUBLISH_NOW.md ✅ (Read this first!)
 ├── DEPLOYMENT_GUIDE.md
 ├── SECURITY_AUDIT.md
 ├── CHROME_STORE_SUBMISSION.md
@@ -93,7 +92,7 @@ SaaS-Detective-v1.0.1.zip (23 KB)
 - [x] manifest.json: VALID
 - [x] popup.js: VALID
 - [x] background.js: VALID
-- [x] dist/content.js: PRESENT (3.72 KB)
+- [x] dist/content.js: PRESENT (size varies by build)
 - [x] icons/icon128.png: PRESENT (804 bytes)
 - [x] Privacy policy: COMPLETE
 - [x] Package .zip: READY
@@ -106,7 +105,7 @@ SaaS-Detective-v1.0.1.zip (23 KB)
 ## 🎯 Features at a Glance
 
 - Auto-scans when popup opens
-- Detects 26+ tech tools
+- Detects 92+ tech tools
 - Affiliate links on all items
 - Zero tracking or analytics
 - Type-safe TypeScript
@@ -120,7 +119,7 @@ SaaS-Detective-v1.0.1.zip (23 KB)
 
 | Need | Read |
 |------|------|
-| Quick start | PUBLISH_NOW.md |
+| Quick start | CHROME_STORE_SUBMISSION.md |
 | Full details | DEPLOYMENT_GUIDE.md |
 | Security info | SECURITY_AUDIT.md |
 | Submission steps | CHROME_STORE_SUBMISSION.md |
@@ -130,8 +129,8 @@ SaaS-Detective-v1.0.1.zip (23 KB)
 
 ## 🎉 You're Done!
 
-**Next**: Read PUBLISH_NOW.md and submit to Chrome Web Store!
+**Next**: Read CHROME_STORE_SUBMISSION.md and submit to Chrome Web Store!
 
 ---
 
-SaaS Detective v1.0.1 | Ready: January 25, 2026
+SaaS Detective v1.0.2 | Ready: January 31, 2026

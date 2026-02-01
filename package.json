@@ -1,6 +1,6 @@
 {
   "name": "saas-detective",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "build": "webpack --mode production",
     "watch": "webpack --mode development --watch"

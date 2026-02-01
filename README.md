@@ -1,135 +1,69 @@
-# SaaS-Detective
-
-SaaS Detective
+# SaaS Detective
 
 Instantly identify the tech stack powering any website.
 
-SaaS Detective is a Chrome extension that instantly reveals the technologies, frameworks, and SaaS tools used to build any website. Click the extension icon, and within seconds, you'll see:
+SaaS Detective is a Chrome extension that reveals the technologies, frameworks, and SaaS tools used to build any website. Click the extension icon and you will see a categorized snapshot of detected tools.
 
-🔍 26+ Tech Signatures - Detect popular tools across multiple categories
-🚀 Frameworks & Libraries - React, Vue, Next.js, jQuery, and more
-💳 Payment Processors - Stripe, PayPal, and other payment solutions
-📊 Analytics Platforms - Google Analytics, Mixpanel, Segment, Hotjar, and more
-💬 Communication Tools - Intercom, Drift, HubSpot chat integrations
-🎯 Marketing Tools - Mailchimp, Klaviyo, Meta Pixel, TikTok Pixel
-🛒 E-Commerce Platforms - Shopify, Wix, Squarespace, Webflow, and more
-Features
-✅ Zero Data Collection - All detection happens locally on your device
-✅ No Tracking - We don't track your browsing or collect personal information
-✅ Instant Results - Auto-scans when you open the popup
-✅ Affiliate Links - Visit tool websites directly from detected results
-✅ Lightweight - Only 3.7 KB of optimized code
-✅ Open Source Ready - Clean, maintainable TypeScript codebase
+## Features
 
- HEAD
-How It Works
+- Detects 92 tech signatures across analytics, ads, CRM, payments, hosting, and more
+- Instant results with auto-scan on popup open
+- Zero data collection and no tracking
+- Local-only processing with no external API calls
+- Direct visit links for each detected tool
+- Clean, lightweight TypeScript codebase
 
-=======
-"How It Works?"
- 9b0718cfae702a4abf2845424314867486f6017b
-Navigate to any website
-Click the SaaS Detective icon
-View the detected tech stack instantly
-Visit any tool's official website using the provided links
-The extension analyzes script tags and resource URLs loaded on the page to identify technologies. No data leaves your browser.
+## How It Works
 
-## 💎Pro-Analysis Suite
+1. Navigate to any website
+2. Click the SaaS Detective icon
+3. View detected technologies instantly
+4. Open official tool pages with the Visit button
 
-While SaaS-Detective identifies the tech stack, I use these professional tools for Deep-Dive competitor research and SEO audits:
-* **[Semrush](https://www.semrush.com)**: The industry standard for analyzing competitor traffic and keyword gaps. (Highly recommended for SaaS developers). 
-* **[DigitalOcean](https://www.digitalocean.com)**: My preferred infrastructure for hosting high-performance backends and Rust APIs. 
+Detection checks scripts, links, meta tags, and page HTML for known signatures. No data leaves your browser.
 
+## Detected Categories (Examples)
 
-Detected Tools
-Site Builders & CMS (7)
-WordPress
-Shopify
-Wix
-Squarespace
-Webflow
-Framer
-Bubble
-Analytics & Data (5)
-Google Analytics
-Segment
-Mixpanel
-Hotjar
-Microsoft Clarity
-Marketing & Chat (5)
-Intercom
-Drift
-HubSpot
-Mailchimp
-Klaviyo
-Ads & Tracking (3)
-Meta Pixel
-TikTok Pixel
-LinkedIn Insight
-Frameworks & Libraries (4)
-React
-Vue.js
-jQuery
-Next.js
-Payments (2)
-Stripe
-PayPal
-Privacy & Security
-We take privacy seriously:
+- Analytics & Data: Google Analytics, Mixpanel, Segment, Amplitude
+- Ads & Pixels: Meta Pixel, TikTok Pixel, Google Ads
+- Marketing & CRM: HubSpot, Salesforce, Marketo
+- Chat & Support: Intercom, Zendesk, Freshchat
+- E-Commerce & Payments: Shopify, Stripe, PayPal
+- Frameworks & Libraries: React, Vue, Angular, Svelte
+- Hosting & Infrastructure: Cloudflare, Netlify, Vercel
+- Security & Compliance: reCAPTCHA, OneTrust, Cookiebot
 
-✅ No data collection or storage
-✅ No external API calls
-✅ No user tracking
-✅ Local processing only
-✅ No cookies injected
-✅ No personal information access
+## Privacy & Security
 
-See privacy.html for complete details.
+- No data collection or storage
+- No user tracking
+- Local processing only
+- No cookies injected
 
-HEAD
-Permissions
+See privacy.html for full details.
 
-Permission	Purpose
-activeTab	Access the current website
-tabs	Identify the active tab to send a scan request
-scripting	Inject detection script into pages
-https://*/* and http://*/*	Run on all websites
-Development
+## Permissions
 
-Built with:
-=======
- 9b0718cfae702a4abf2845424314867486f6017b
+- tabs: identify the active tab to scan
+- storage: save category preferences
+- https://*/* and http://*/*: allow detection on all websites
 
-Built with;
-TypeScript - Type-safe code
-Webpack - Bundling and optimization
-Manifest V3 - Modern Chrome extension standard
-Build
-npm install
-npm run build
-Development Watch
-npm run watch
-Support
-For questions or issues:
+## Development
 
-📧 Email: gkube16@protonmail.com
-🐛 Report bugs via Chrome Web Store
+Built with TypeScript, Webpack, and Manifest V3.
 
+- Install: npm install
+- Build: npm run build
+- Watch: npm run watch
 
-Made with ❤️ by Venom Industries
+## Support
 
-
-License
-Copyright © 2026 Venom Industries. All rights reserved.
-
-Affiliate Disclosure
- HEAD
-
-SaaS Detective may include affiliate links to services we detect. Using these links helps support extension development. You are never required to use them, and they are clearly labeled.
-
-Made with ❤️ by Venom Industries
-=======
-SaaS Detective may include affiliate links to services we detect. Using these links helps support extension development. You are never required to use them, and they are clearly labeled, 
- 9b0718cfae702a4abf2845424314867486f6017b
+Email: gkube16@protonmail.com
 
 ## Affiliate Disclosure
-SaaS-Det ective is a product of Venom Industries. To keep the project open-source and free, this README and the extension may include affiliate l inks to services we detect (like Semrush or hosting providers)_. If you use these links to start a trial or purchase a service, we may recieve a comission at no extra cost to you.
+
+SaaS Detective may include affiliate links to services we detect. Using these links helps support development. You are never required to use them, and they are clearly labeled.
+
+## License
+
+Copyright © 2026 Venom Industries. All rights reserved.

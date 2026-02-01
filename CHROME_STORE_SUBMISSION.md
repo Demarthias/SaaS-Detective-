@@ -4,7 +4,7 @@
 
 ### Manifest & Metadata
 - [x] manifest.json properly formatted
-- [x] Version incremented to 1.0.1
+- [x] Version incremented to 1.0.2
 - [x] Short name defined (SaaS Detective)
 - [x] Proper description provided
 - [x] All icons referenced and present
@@ -99,7 +99,7 @@ Design: Modern, professional, feature the main icon
 
 ### Screenshots (1280x800px each)
 - Screenshot 1: Extension popup showing detected tools
-- Screenshot 2: List of 26+ tech signatures
+- Screenshot 2: List of 92+ tech signatures
 - Screenshot 3: Affiliate link feature
 
 ---
@@ -111,7 +111,7 @@ Design: Modern, professional, feature the main icon
 npm run build
 
 # Create distribution zip
-zip -r SaaS-Detective-v1.0.1.zip \
+zip -r SaaS-Detective-v1.0.2.zip \
   manifest.json \
   popup.html \
   popup.js \
@@ -136,7 +136,7 @@ Before submitting, verify:
    - manifest.json loads without errors
    - popup.html is valid
    - All icons are present and correct size
-   - dist/content.js exists and is minimized
+   - dist/content.js exists and is ready
 
 3. **Functionality**
    - Extension loads without warnings
@@ -164,6 +164,6 @@ After approval:
 
 ---
 
-**Extension**: SaaS Detective v1.0.1  
+**Extension**: SaaS Detective v1.0.2  
 **Developer**: Venom Industries  
-**Last Updated**: January 25, 2026
+**Last Updated**: January 31, 2026
