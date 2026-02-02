@@ -1,0 +1,34 @@
+Privacy Policy for SaaS Detective
+Effective Date: February 2, 2026
+
+1. Introduction
+SaaS Detective ("we," "our," or "us"), a project by Venom Industries LLC, is committed to protecting your privacy. This Privacy Policy explains our practices regarding the collection, use, and disclosure of information through our Chrome Extension.
+
+2. Information We Do Not Collect
+SaaS Detective is designed with a privacy-first architecture.
+
+No Personal Data: We do not collect names, email addresses, physical addresses, or any other personally identifiable information (PII).
+
+No Browsing History: We do not track, record, or transmit your browsing history. The extension only analyzes the technical metadata of the specific tab you are currently viewing to identify the software stack.
+
+No External Transmission: All technology detection is performed locally on your device. No data regarding the sites you visit is sent to our servers.
+
+3. Data Used for Extension Functionality
+To provide the core service of identifying website technology, the extension temporarily accesses:
+
+Active Tab Metadata: This is used solely to identify frameworks, CMS platforms, and scripts. This data is not stored or shared.
+
+Local Storage: We use browser-based local storage to save your user preferences (e.g., UI theme or favorite tools). This data stays on your machine.
+
+4. Third-Party Links and Affiliate Disclosure
+SaaS Detective may display links to third-party SaaS platforms and services. Some of these links are affiliate links.
+
+If you click an affiliate link, a third-party affiliate network (such as Shopify or MaxBounty) may use cookies or collect technical data (like your IP address) to track the referral.
+
+We do not share any of your browsing data with these third parties. Their data collection is governed by their own respective privacy policies.
+
+5. Future Changes
+If we decide to implement anonymized analytics in the future to improve our detection engine, we will update this policy and provide a notification within the extension UI. We will never collect personal data without your explicit consent.
+
+6. Contact Us
+If you have any questions about this Privacy Policy, please contact: Venom Industries LLC [Insert Your Contact Email Here]
