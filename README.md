@@ -1,69 +1,46 @@
-# SaaS Detective
+# SaaS Detective | Web Intelligence Engine
+**Version:** 1.0.2 (Manifest V3)
+**Core Logic:** TypeScript + JavaScript
 
-Instantly identify the tech stack powering any website.
-
-SaaS Detective is a Chrome extension that reveals the technologies, frameworks, and SaaS tools used to build any website. Click the extension icon and you will see a categorized snapshot of detected tools.
+SaaS Detective is a lightweight Chrome extension that identifies technology stacks on the current page using local signature matching. No remote calls. No analytics. No tracking.
 
 ## Features
+- Instant tech stack detection from the current tab
+- 90+ signatures across frameworks, analytics, payments, and more
+- Organized categories with per-category toggles
+- Zero data collection (local-only processing)
+- Affiliate links shown only when you click a tool
 
-- Detects 92 tech signatures across analytics, ads, CRM, payments, hosting, and more
-- Instant results with auto-scan on popup open
-- Zero data collection and no tracking
-- Local-only processing with no external API calls
-- Direct visit links for each detected tool
-- Clean, lightweight TypeScript codebase
+## Permissions (Why They’re Needed)
+- `tabs`: identify the active tab you choose to scan and open links you click in the popup
+- `storage`: save category preferences in Chrome sync storage
+- Host permissions (http/https): allow the detection script to read page markup for sites you choose to scan
 
-## How It Works
+## Build
+```bash
+npm install
+npm run build
+```
 
-1. Navigate to any website
-2. Click the SaaS Detective icon
-3. View detected technologies instantly
-4. Open official tool pages with the Visit button
+## Package for Chrome Web Store
+```bash
+# From project root
+zip -r SaaS-Detective-v1.0.2.zip \
+	manifest.json \
+	popup.html \
+	popup.js \
+	privacy.html \
+	background.js \
+	README.md \
+	dist/ \
+	icons/
+```
 
-Detection checks scripts, links, meta tags, and page HTML for known signatures. No data leaves your browser.
-
-## Detected Categories (Examples)
-
-- Analytics & Data: Google Analytics, Mixpanel, Segment, Amplitude
-- Ads & Pixels: Meta Pixel, TikTok Pixel, Google Ads
-- Marketing & CRM: HubSpot, Salesforce, Marketo
-- Chat & Support: Intercom, Zendesk, Freshchat
-- E-Commerce & Payments: Shopify, Stripe, PayPal
-- Frameworks & Libraries: React, Vue, Angular, Svelte
-- Hosting & Infrastructure: Cloudflare, Netlify, Vercel
-- Security & Compliance: reCAPTCHA, OneTrust, Cookiebot
-
-## Privacy & Security
-
-- No data collection or storage
-- No user tracking
-- Local processing only
-- No cookies injected
-
-See privacy.html for full details.
-
-## Permissions
-
-- tabs: identify the active tab to scan
-- storage: save category preferences
-- https://*/* and http://*/*: allow detection on all websites
-
-## Development
-
-Built with TypeScript, Webpack, and Manifest V3.
-
-- Install: npm install
-- Build: npm run build
-- Watch: npm run watch
+## Privacy & Affiliate Disclosure
+- All detection runs locally on your device
+- No browsing history is collected or transmitted
+- Clicking a tool may open an affiliate link (clearly disclosed in the UI)
 
 ## Support
-
-Email: gkube16@protonmail.com
-
-## Affiliate Disclosure
-
-SaaS Detective may include affiliate links to services we detect. Using these links helps support development. You are never required to use them, and they are clearly labeled.
-
-## License
-
-Copyright © 2026 Venom Industries. All rights reserved.
+- Privacy policy: privacy.html
+- Terms: terms.html

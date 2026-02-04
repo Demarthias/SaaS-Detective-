@@ -6,9 +6,9 @@
 ## 2. Permissions Justification
 | Permission | Justification |
 | :--- | :--- |
-| **activeTab** | "Required to access the DOM of the currently active website to detect technology signatures (e.g. Shopify variables, React roots) only when the user triggers the extension." |
-| **scripting** | "Used to inject a lightweight detection script into the page context to identify JavaScript libraries that are not visible in the HTML source." |
-| **storage** | "Used to persist user preferences (e.g. theme settings) and cache detection rules locally." |
+| **tabs** | "Used to identify the active tab the user chooses to scan and to open links the user clicks from the popup." |
+| **storage** | "Used to persist user preferences (e.g. category filters) in Chrome sync storage." |
+| **host permissions (http/https)** | "Required for the detection script to read page markup only on sites the user chooses to scan." |
 
 ## 3. Remote Code Policy
 * **Does this extension use remote code?** -> **NO**

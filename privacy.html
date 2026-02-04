@@ -28,7 +28,7 @@
     <p>We comply with the <strong>Chrome Web Store User Data Policy</strong>, including the "Limited Use" requirements.</p>
     <ul>
         <li><strong>Personal Data:</strong> We do NOT collect names, emails, addresses, or phone numbers.</li>
-        <li><strong>Browsing Data:</strong> We do NOT track, log, or transmit your browsing history. The extension reads the <code>activeTab</code> DOM only upon your explicit request to identify technologies.</li>
+        <li><strong>Browsing Data:</strong> We do NOT track, log, or transmit your browsing history. The extension reads the DOM of the page you choose to scan only when you trigger a scan from the popup.</li>
         <li><strong>Technical Data:</strong> All technology detection (e.g., identifying "Shopify" or "React") happens locally on your device using bundled signatures.</li>
     </ul>
 
@@ -43,9 +43,9 @@
     <h2>3. Permissions Justification</h2>
     <p>We use the minimum permissions necessary:</p>
     <ul>
-        <li><code>activeTab</code>: Grants temporary access to the current site to perform the scan.</li>
-        <li><code>storage</code>: Saves your UI preferences (e.g., "Dark Mode") locally.</li>
-        <li><code>scripting</code>: Allows the execution of the detection engine within the page context.</li>
+        <li><code>tabs</code>: Used to identify the active tab you request to scan and to open links you click in the popup.</li>
+        <li><code>storage</code>: Saves your preferences in Chrome sync storage (e.g., category filters).</li>
+        <li><code>host permissions</code> (http/https): Allow the detection script to read page markup for sites you choose to scan.</li>
     </ul>
 
     <h2>4. European Union Users (GDPR)</h2>

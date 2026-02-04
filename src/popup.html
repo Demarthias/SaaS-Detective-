@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaaS Detective</title>
+    <style>
+        body { width: 320px; font-family: -apple-system, system-ui, sans-serif; padding: 0; margin: 0; background: #f9fafb; }
+        .header { background: #111827; color: #fff; padding: 16px; text-align: center; }
+        .header h1 { margin: 0; font-size: 18px; font-weight: 600; }
+        .header p { margin: 4px 0 0; font-size: 12px; opacity: 0.8; }
+        
+        #results-container { padding: 16px; min-height: 100px; }
+        .tech-item { background: #fff; border: 1px solid #e5e7eb; padding: 12px; margin-bottom: 8px; border-radius: 6px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+        .tech-name { font-weight: 500; color: #374151; font-size: 14px; }
+        
+        /* Category Header Style */
+        .category-header { font-size: 11px; font-weight: 700; color: #6b7280; margin: 12px 0 4px 4px; text-transform: uppercase; letter-spacing: 0.05em; }
+
+        .deal-btn { background: #2563eb; color: white; border: none; padding: 6px 12px; border-radius: 4px; font-size: 12px; cursor: pointer; font-weight: 500; transition: background 0.2s; }
+        .deal-btn:hover { background: #1d4ed8; }
+        
+        .footer { padding: 12px; text-align: center; font-size: 11px; color: #9ca3af; border-top: 1px solid #e5e7eb; background: #fff; }
+        .loading { text-align: center; color: #6b7280; font-size: 14px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>SaaS Detective</h1>
+        <p>Scanning current site...</p>
+    </div>
+    
+    <div id="results-container">
+        <div class="loading">Initializing...</div>
+    </div>
+
+    <div class="footer">
+        Powered by Venom Industries LLC
+        <div title="We may earn a commission from partner links." style="cursor: help; margin-top: 4px;">ⓘ Affiliate Disclosure</div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
